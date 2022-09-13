@@ -18,7 +18,7 @@ def main():
         real_password = ""
         with socket.socket() as client_socket:
             client_socket.connect(address)
-            with open(r"C:\Users\Imane Houbbane\PycharmProjects\Password Hacker\logins.txt", 'r') as logins:
+            with open(r".\logins.txt", 'r') as logins:
                 for line in logins:
                     login = str(line.rstrip("\n"))
                     dict_login = {"login": login, "password": " "}
