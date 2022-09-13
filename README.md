@@ -1,4 +1,8 @@
 # Password-hacker
 
 Developing a client app and connecting to a server using the socket module. 
-Implementation of password cracker using three methods: brute force, dictionary-based brute force and time-based vulnerability
+Implementation of password cracker using four methods: 
+1. Brute force.
+2. Dictionary-based brute force. 
+3. Catching exception.
+4. Time-based vulnerability.
