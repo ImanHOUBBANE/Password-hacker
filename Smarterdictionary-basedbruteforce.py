@@ -16,7 +16,7 @@ def main():
         address = (ip_address, port)
         with socket.socket() as client_socket:
             client_socket.connect(address)
-            with open(r"C:\Users\Imane Houbbane\PycharmProjects\Password Hacker\passwords.txt", 'r') as password:
+            with open(r".\passwords.txt", 'r') as password:
                 for line in password:
                     password_ = str(line.rstrip("\n"))
                     password_list = []
