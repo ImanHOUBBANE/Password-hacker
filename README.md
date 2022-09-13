@@ -6,4 +6,5 @@ Implementation of password cracker using four methods:
 2. Dictionary-based brute force. 
 3. Catching exception.
 4. Time-based vulnerability.
+
 In this project , i used two files : passwords.txt  for dictionary-based brute force method and logins.txt for catching exception method.
